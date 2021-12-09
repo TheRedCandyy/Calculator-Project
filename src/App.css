@@ -1,31 +1,50 @@
-.App {
-  text-align: center;
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+a:visited{
+  color: #CB997E;
+}
+
+.calculator{
+  font-size: 1.5rem;
+}
+
+.calculator button{
+  background-color: #DDBEA9;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width:100%;
+}
+
+.calculator button:hover:not([disabled]) {
+    cursor:pointer;
+    background-color: #B08968;
+    color:white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  text-align: left;
+}
+
+p i {
+  font-size: 1.5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-header{
+  color:white;
+  font-size:1.3rem;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #CB997E;
 }
 
 @keyframes App-logo-spin {
